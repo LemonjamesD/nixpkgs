@@ -18,7 +18,7 @@ let
 in
 stdenv.mkDerivation rec {
   pname = "ue4";
-  version = "4.10.2";
+  version = "4.27.2";
   sourceRoot = "UnrealEngine-${version}-release";
   src = requireFile {
     name = "${sourceRoot}.zip";
